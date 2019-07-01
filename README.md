@@ -183,17 +183,9 @@
 
 ### 写在后面
 
-**不知不觉，这个项目已经更新两年多了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎打赏表扬，你的赞赏会激励作者一直更新下去，谢谢支持！**
+**不知不觉，这个项目已经更新三年多了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎打赏表扬，你的赞赏会激励作者一直更新下去，谢谢支持！**
 
 
 
 ![image](basic-knowledge/img/27.png)
 
-
-### 联系作者
-
-Email：aalansehaiyang52@126.com
-
-### Lisence
-
-Lisenced under [Apache 2.0 lisence](http://opensource.org/licenses/Apache-2.0)

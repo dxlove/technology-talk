@@ -16,6 +16,16 @@
 * 	网关	
 	* [Gateway](Gateway.md)
 	* [微服务网关Zuul迁移到Spring Cloud Gateway](https://mp.weixin.qq.com/s/Qnxec7w26AX6jRl0KRHVHg)
+	* [Spring Cloud 终于按捺不住推出了自己的服务网关 Gateway](https://mp.weixin.qq.com/s/qySjzQ8f-pYwWKPE_8BhVg)
+*   分布式事务
+	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
+*   注册中心
+	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
+* 	负载均衡
+	* [常用算法](load-balance.md)
+*  Spring Cloud
+	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+	
 
 ---
 ### 微服务
@@ -28,35 +38,11 @@
 *   [微服务架构技术栈选型手册](https://mp.weixin.qq.com/s/zFJokAv8lSQejGFTGJTJeQ)
 * [微服务2.0技术栈选型手册](https://mp.weixin.qq.com/s/OloZhn2pwfIrOQit_8jefA)
 * [微服务架构在千万级别日调用量、亿级别海量数据场景下的应用实践](https://mp.weixin.qq.com/s/fqOOkMMPwXTNG8PHJ_yUAw)
-*   分布式事务
-	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
-*   注册中心
-	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
-* 	负载均衡
-	* [常用算法](load-balance.md)
-*  Spring Cloud
-	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+* [微服务架构设计基础之立方体模型](https://mp.weixin.qq.com/s/dY2xmz3J735Etb7DtX-9hQ)
 *	Service Mesh	
 	* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
 	* [Service Mesh 及其主流开源实现解析](https://mp.weixin.qq.com/s/fdByrlbKmA0H1ccEBL0NAw)
-	
-	
----
-### 数据库
-
-*	[数据库架构](数据库架构.md)
-*	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
-*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
-*	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
-*	[分布式MySQL集群方案的探索与思考](https://mp.weixin.qq.com/s/2G5z9Ra8DJOP_1Co3cHcqA)
-*	中间件
-	* [为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
-*	分库分表
-	* [关于分库分表](https://mp.weixin.qq.com/s/eOaVRyCTKHeAWG4UXcGjQQ)
-	* [也谈分库分表在实际应用的实践](https://mp.weixin.qq.com/s/Wn_Ox3617uUkzIJJJoUrjw)
-	* [不停机分库分表迁移](https://mp.weixin.qq.com/s/oK94W71MAdNKXLxHl5dpPQ)
-	* [如何不停机完成单表拆分](split-table.md)
-* [InnoDB，5项最佳实践，知其所以然？](https://mp.weixin.qq.com/s/JEJcgD36dpKgbUi7xo6DzA)
+	* [蚂蚁金服 Service Mesh](https://skyao.io/#about)
 
 ---
 ### 缓存
@@ -75,7 +61,25 @@
 * [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
 * [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
 * [你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
-* [cache相关](cache相关.md)
+* [cache相关](cache相关.md)	
+	
+---
+### 数据库
+
+*	[数据库架构](数据库架构.md)
+*	[无限容量数据库架构设计](https://mp.weixin.qq.com/s/ad4tpM6cdi9r6vgfbaTzxg)
+*	[100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
+*	[数据库表垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
+*	[分布式MySQL集群方案的探索与思考](https://mp.weixin.qq.com/s/2G5z9Ra8DJOP_1Co3cHcqA)
+*	中间件
+	* [为什么要引入数据库中间件](https://mp.weixin.qq.com/s/lHrMS-GdKsZYhaOf59magQ)
+*	分库分表
+	* [关于分库分表](https://mp.weixin.qq.com/s/eOaVRyCTKHeAWG4UXcGjQQ)
+	* [也谈分库分表在实际应用的实践](https://mp.weixin.qq.com/s/Wn_Ox3617uUkzIJJJoUrjw)
+	* [不停机分库分表迁移](https://mp.weixin.qq.com/s/oK94W71MAdNKXLxHl5dpPQ)
+	* [如何不停机完成单表拆分](split-table.md)
+* [InnoDB，5项最佳实践，知其所以然？](https://mp.weixin.qq.com/s/JEJcgD36dpKgbUi7xo6DzA)
+
 
 ---
 ### MQ消息
@@ -84,6 +88,10 @@
 *	[MQ消息可达性+幂等性+延时性架构设计](https://mp.weixin.qq.com/s/8oX7u8XcLL80_nNdN-UkvQ)
 *	[一网打尽消息队列在大型分布式系统中的实战精髓](https://mp.weixin.qq.com/s/Kpkr-vGUC9Po19iRPKfLfA)
 
+---
+### 配置管理
+
+* [分布式配置中心](https://mp.weixin.qq.com/s/MI_vtOo4EFAWm_e379uPUg?from=groupmessage&isappinstalled=0)
 
 ---
 ### 稳定性
@@ -99,14 +107,17 @@
 	* [限流降级神器-哨兵(sentinel)原理分析](https://mp.weixin.qq.com/s/g2hyp9CquEAvTe8QmPO-3g)
 	* [从构建分布式秒杀系统聊聊限流特技](https://blog.52itstyle.com/archives/2982/)
 	* [限流系统如何发现系统的热点](https://mp.weixin.qq.com/s/wRKiEKT_Qe05Ie8XWgkaXQ)
+	* [想通关「限流」？只要这一篇](https://mp.weixin.qq.com/s/EpDh2j8eKaObVcE7a1F4jg)
 * 降级
 	* [降级](demotion.md)
 * 熔断
 	* [熔断器](fusing.md)
+	* [如何在到处是“雷”的系统中「明哲保身」](https://mp.weixin.qq.com/s/txh8-N_VEVh11Rc4oQGfqw)
 * 隔离
 	* [隔离设计](isolate.md)
 * 幂等
 	* [幂等性设计](idempotent.md)
+	* [并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
 * 重试
 	* [重试设计](re-try.md)
 * 异地双活
@@ -129,9 +140,6 @@
 *	[接口鉴权（数字签名）](数字签名.md)
 
 	
----
-### 数据一致性
-* 	[并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
 
 ---
 ### 锁相关
@@ -162,6 +170,11 @@
 ### 技术选型
 
 *	[技术选型时的思考及注意事项](https://mp.weixin.qq.com/s/KUiHS4Jg7pqunEA3X6RQPw)
+
+---
+### 开源
+
+* [2018年阿里巴巴重要开源项目汇总](https://yq.aliyun.com/articles/676140)
 
 ---
 ### 架构汇总
